@@ -268,6 +268,7 @@ function CreateTripPage() {
     </div>
   )
 }
+export default CreateTripPage
 ```
 
 Let's talk about what this code is doing.
