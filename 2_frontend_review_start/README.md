@@ -234,6 +234,7 @@ function VehiclesAndDriversPage() {
     </div>
   )
 }
+export default VehiclesAndDriversPage
 ```
 
 `TripsPage` follows the same pattern — import `TRIPS` and render `<TripList trips={TRIPS} />`.
