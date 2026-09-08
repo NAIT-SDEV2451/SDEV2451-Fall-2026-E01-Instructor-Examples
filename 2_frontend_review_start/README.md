@@ -286,6 +286,9 @@ Let's talk about what this code is doing.
 // src/App.jsx
 
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import VehiclesAndDriversPage from './pages/VehiclesAndDriversPage'
+import TripsPage from './pages/TripsPage'
+import CreateTripPage from './pages/CreateTripPage'
 
 function App() {
   return (
@@ -296,16 +299,30 @@ function App() {
             <span className="text-lg font-bold">Fleet Manager</span>
           </div>
           <div className="navbar-end gap-2">
-            <NavLink to="/" end
-              className={({ isActive }) => `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`}>
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`
+              }
+            >
               Vehicles &amp; Drivers
             </NavLink>
-            <NavLink to="/trips" end
-              className={({ isActive }) => `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`}>
+            <NavLink
+              to="/trips"
+              end
+              className={({ isActive }) =>
+                `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`
+              }
+            >
               Trips
             </NavLink>
-            <NavLink to="/trips/new"
-              className={({ isActive }) => `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`}>
+            <NavLink
+              to="/trips/new"
+              className={({ isActive }) =>
+                `btn btn-sm ${isActive ? 'btn-primary' : 'btn-ghost'}`
+              }
+            >
               Create Trip
             </NavLink>
           </div>
@@ -322,6 +339,8 @@ function App() {
     </BrowserRouter>
   )
 }
+
+export default App
 ```
 
 Let's talk about what this code is doing.
