@@ -1,4 +1,5 @@
 from django.contrib.auth import get_user_model
+from django.contrib.auth.hashers import make_password
 from rest_framework import serializers
 
 User = get_user_model()
@@ -15,5 +16,8 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             "role": {"required": False},
         }
 
+    def validate_password(self, value):
+        return make_password(value)
+
     def create(self, validated_data):
-        return User.objects.create_user(**validated_data)
+        return User.objects.create(**validated_data)

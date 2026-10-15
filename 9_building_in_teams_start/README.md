@@ -6,7 +6,7 @@ We'll be doing this by implementing features by creating pull requests and doing
 
 In this example we'll be creating a pull request for the ordering feature that will allow users to checkout and get tickets for the application.
 
-## Prerequisites
+## Prerequisitess
 
 ### Backend
 - Create a virtual environment inside `ticketmono_backend/` and install packages from `requirements.txt`.
