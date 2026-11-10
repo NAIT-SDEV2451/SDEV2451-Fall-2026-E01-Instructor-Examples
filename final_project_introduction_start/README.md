@@ -1,14 +1,14 @@
 # Final Project Introduction
 
-In the final project, you'll be in a group of 3-4 team members and building a full stack application using the concepts you've learned in this course. This is going to be a big project and will require you to work together as a team to complete it. You will be expected to use GitHub for version control and collaboration, and you will be graded on your ability to work together as a team, as well as the quality of your code.
+In the final project, you'll be in a group of 2-4 team members and building a full stack application using the concepts you've learned in this course. This is going to be a big project and will require you to work together as a team to complete it. You will be expected to use GitHub for version control and collaboration, and you will be graded on your ability to work together as a team, as well as the quality of your code.
 
 
 
 
 ## This project is to prepare you for capstone so that your next semester goes smoothly.
 - This is not only going to test your software knowledge but your collaboration, communication, and time management skills.
-- You'll get to make teams of 4 together that you will pick and folks who don't show up will get put in a team together to not impede on other team members.
-- **You can't do this in pairs, you can't do it solo.**
+- You'll get to make teams of 2-4 together that you will pick and folks who don't show up will get put in a team together to not impede on other team members.
+
 - **Everyone will need to contribute.**
 - **Everyone will need to review each others code.**
 - You will have 4-5 weeks to complete this.
